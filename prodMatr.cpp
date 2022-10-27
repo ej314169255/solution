@@ -22,8 +22,8 @@ int main()
     std::thread threads[NUM_THREADS];
     long sumArray[NUM_THREADS] = {0};
     int n1, n2, m1, m2;
-    long l = -128;
-    long h = 127;
+    long l = 0;
+    long h = 255;
     srand(time(NULL));
 
     
